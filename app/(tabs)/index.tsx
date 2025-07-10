@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved
 import CartButton from "@/components/CartButton";
 import { images, offers } from "@/constants";
 import useAuthStore from "@/store/auth.store";
@@ -69,7 +70,7 @@ export default function Index() {
             <View className='flex-start'>
               <Text className='small-bold text-primary'>DELIVER TO</Text>
               <TouchableOpacity className='flex-center flex-row gap-x-1 mt-0.5'>
-                <Text className='paragraph-font text-dark-100'>Croatia</Text>
+                <Text className='paragraph-font text-dark-100'>Viet Nam</Text>
                 <Image
                   source={images.arrowDown}
                   className='size-3'
